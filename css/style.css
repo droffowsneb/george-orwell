@@ -9,8 +9,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Bitter', Times, serif;
 }
 
-h1 {
+h1.display-3 {
   color: white;
+  font-size: 80px;
   text-shadow: 2px 2px 5px gray;
 }
 
@@ -86,4 +87,31 @@ p.accordionText {
 
 .sidebar {
   background-color: WhiteSmoke;
+}
+
+@media (max-width: 576px) {
+  .content-box {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  h1.mobile-only {
+    color: FireBrick;
+  }
+
+  th,td {
+    font-size: .8em;
+  }
+}
+
+@media (max-width: 768px) {
+  h1.mobile-only {
+    color: FireBrick;
+  }
+}
+
+@media (min-width: 769px) {
+  h1.mobile-only {
+    display: none;
+  }
 }
