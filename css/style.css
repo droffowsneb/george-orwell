@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Montserrat');
+
+body {
+  background-color: indianRed;
+  font-family: 'Montserrat', Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bitter', Times, serif;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 5px gray;
+}
+
+a {
+  color: FireBrick;
+}
+
+a:hover {
+  color: Maroon;
+}
+
+.width-80 {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.content-box {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 15px;
+  background-color: #E8E8E8;
+  box-shadow: 0px 0px 10px 5px slateGray;
+}
+
+.thead1 {
+  background-color: slateGray;
+}
+
+th {
+  color: white;
+}
+
+.tdValue {
+  text-align: right;
+}
+
+.col-8>h2 {
+  margin: 25px 0px;
+}
+
+.releaseThumb {
+  max-width: 30%;
+  margin: 0px 15px 10px 0px;
+}
+
+.contentRow {
+  margin: 20px 10px;
+  padding-right: 5px;
+}
+
+p.accordionText {
+  font-size: .9em;
+  line-height: 150%;
+  font-family: 'Montserrat', Verdana, sans-serif;
+}
+
+.footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: WhiteSmoke;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.ui-accordion-header {
+  color: white;
+  background-color: SlateGrey;
+}
+
+.sidebar {
+  background-color: WhiteSmoke;
+}
